@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+
+    --font-montserrat: "Montserrat", "sans-serif";
+   
+    --color-gradiente: rgba(15, 23, 42, 0.8);
+    --color-fundo: #0f172a;
+    --color-vidro: rgba(255, 255, 255, 0.05);
+    --shadow-topo: 10px 10px 60px 10px rgba(79, 70, 229, 0,64);   
+}
+
+:root {
+    background-color: var(--color-fundo);
+    font-family: "Roboto", sans-serif;
+}
