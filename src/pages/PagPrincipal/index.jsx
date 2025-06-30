@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link"
-import { FaRegCopyright, FaLinkedin } from "react-icons/fa6";
+import { FaRegCopyright, FaLinkedin, FaGithub  } from "react-icons/fa6";
 import imgMinha from '../../img/minhafoto.png'
 import imgBatman from '../../img/projetobatman.png'
 import imgCadastro from "../../img/cadastro.png"
@@ -15,6 +15,7 @@ function Home() {
     const telefone = '5511960611515'
 
     const linkedinUrl = "https://www.linkedin.com/feed/?trk=sem-ga_campid.12619604099_asid.149519181115_crid.725790844702_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9195894"
+    const gitHubUrl = "https://github.com/bbuenodeveloper"
 
 
 
@@ -44,6 +45,10 @@ function Home() {
 
     function linkedin(){
         window.open(linkedinUrl, '_blank')
+    }
+
+    function github(){
+         window.open(gitHubUrl, '_blank')
     }
 
 
@@ -124,9 +129,12 @@ function Home() {
             </div>
 
             <footer className="h-40 bg-gradiente  border border-t-vidro">   
-                <div className="flex justify-center items-center h-30">
-                    <button onClick={linkedin}>
+                <div className="flex justify-center items-center flex-col h-30">
+                    <button onClick={linkedin} className="mb-2">
                         <FaLinkedin className="text-white text-2xl cursor-pointer hover:scale-110"/>
+                    </button>
+                    <button onClick={github}>
+                        <FaGithub  className="text-white text-2xl cursor-pointer hover:scale-110"/>
                     </button>
                 </div>
              
