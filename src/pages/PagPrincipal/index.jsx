@@ -88,7 +88,7 @@ function Home() {
                 </div>
             </div>
 
-            <div id="projetos" className="m-50 px-40">
+            <div id="projetos" className="m-50 px-40 max-md:p-0">
                 <h1 className="text-white text-3xl font-montserrat mb-5 font-bold flex justify-center">Meus Projetos</h1>
                 <div className="grid grid-cols-3 justify-items-center w-auto gap-8 max-md:grid-cols-1">
                     <div className="hover:scale-105">
