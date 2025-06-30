@@ -54,7 +54,7 @@ function Home() {
 
 
     return (
-        <div>
+        <div className="max-md:overflow-hidden">
             <header className="flex justify-around bg-gradiente h-15 items-center font-montserrat fixed top-0 right-0 left-0 z-10 shadow-lg max-md:justify-center max-md:w-screen">
                 <div>
                     <h1 className="text-white text-3xl hover:scale-120 max-md:hidden"><Link to="#">Bruno Bueno</Link></h1>
