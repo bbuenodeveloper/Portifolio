@@ -88,25 +88,25 @@ function Home() {
                 </div>
             </div>
 
-            <div id="projetos" className="m-50">
+            <div id="projetos" className="m-50 px-40">
                 <h1 className="text-white text-3xl font-montserrat mb-5 font-bold flex justify-center">Meus Projetos</h1>
                 <div className="grid grid-cols-3 justify-items-center w-auto gap-8 max-md:grid-cols-1">
                     <div className="hover:scale-105">
-                        <img src={imgBatman} alt="Projeto Batman" className="h-40 rounded-t-2xl max-md:w-screen"/>
+                        <img src={imgBatman} alt="Projeto Batman" className="h-40 rounded-t-2xl w-full max-md:w-screen"/>
                         <div className="p-4 border border-vidro bg-vidro rounded-b-2xl max-md:w-screen">
                             <h2 className="text-white font-montserrat text-xl mb-2">Projeto Batman</h2>
                             <p className="text-white text-sm">Projeto tudo sobre o filme batman, este projeto foi utilizado HTML, CSS, JavaScript. E modo responsivo para telas menores.</p>
                         </div>
                     </div>
                     <div className="hover:scale-105">
-                        <img src={imgCadastro} alt="Projeto Cadastro" className="h-40 w-100 rounded-t-2xl max-md:w-screen"/>
+                        <img src={imgCadastro} alt="Projeto Cadastro" className="h-40 rounded-t-2xl w-full max-md:w-screen"/>
                         <div className="p-4 border border-vidro bg-vidro rounded-b-2xl max-md:w-screen">
                             <h2 className="text-white font-montserrat text-xl mb-2">Projeto Cadastro</h2>
                             <p className="text-white text-sm">Criei uma tela de cadastro e login, utilizando React.js, Node.js, Mongodb, Tailwindcss entre outras bibliotecas como bcrypt, JWT.</p>
                         </div>
                     </div>
                     <div className="hover:scale-105">
-                        <img src={imgAcademia} alt="Projeto Academia" className="h-40 rounded-t-2xl max-md:w-screen"/>
+                        <img src={imgAcademia} alt="Projeto Academia" className="h-40 rounded-t-2xl w-full max-md:w-screen"/>
                         <div className="p-4 border border-vidro bg-vidro rounded-b-2xl max-md:w-screen">
                             <h2 className="text-white font-montserrat text-xl mb-2">Projeto Academia</h2>
                             <p className="text-white text-sm">Projeto de um site para Academia, este projeto foi utlizado HTML, CSS, JAvaScript. E modo responsivo para telas menores.</p>
